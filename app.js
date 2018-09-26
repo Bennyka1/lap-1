@@ -80,4 +80,3 @@ bot.dialog('CancelDialog',
 ).triggerAction({
     matches: 'Cancel'
 })
-
