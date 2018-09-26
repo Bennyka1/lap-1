@@ -1,7 +1,7 @@
 /*-----------------------------------------------------------------------------
-A simple Language Understansdfsdfsdsdfding (LUIS) bot for the Microsoft Bot Framework. 
+A sssdfsddfimplfsdfe Langusdfsdage Understansdfsdfsdsrsdfsdfsdfding (LUIS) bot for the Microsoft Bot Framework. 
 -----------------------------------------------------------------------------*/
-/*test*/
+/*tesfsdfsdfsdfsdfsdft*/
 var restify = require('restify');
 var builder = require('botbuilder');
 var botbuilder_azure = require("botbuilder-azure");
