@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------
-A simple Language Understanding (LUIS) bot for the Microsoft Bot Framework. 
+A simple Languagsdfsde Understanding (LUIS) bot for the Microsoft Bot Framework. 
 -----------------------------------------------------------------------------*/
 
 var restify = require('restify');
