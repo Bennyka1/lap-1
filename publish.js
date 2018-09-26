@@ -4,10 +4,10 @@ var fs = require('fs');
 var request = require('request');
 
 var rootFolder = path.resolve('.');
-var zipPath = path.resolve(rootFolder, '../lap-12.zip');
-var kuduApi = 'https://lap-12.scm.azurewebsites.net/api/zip/site/wwwroot';
-var userName = '$lap-12';
-var password = 'ZCfvsvAfMHW4hQoJiAaavKLPyNhr98jem457y69Ar28a6lvBtD4oDbHsD9Ti';
+var zipPath = path.resolve(rootFolder, '../msg-buddy-bot.zip');
+var kuduApi = 'https://msg-buddy-bot.scm.azurewebsites.net/api/zip/site/wwwroot';
+var userName = '$msg-buddy-bot';
+var password = 'SA55JAvwBxn9ePpw8qKovQNcP1a0qFrtFpGZgbGvRvKiRve8PLQxBmGiL6vx';
 
 function uploadZip(callback) {
   fs.createReadStream(zipPath).pipe(request.put(kuduApi, {
@@ -45,8 +45,8 @@ function publish(callback) {
 
 publish(function(err) {
   if (!err) {
-    console.log('lap-12 publish');
+    console.log('msg-buddy-bot publish');
   } else {
-    console.error('failed to publish lap-12', err);
+    console.error('failed to publish msg-buddy-bot', err);
   }
 });

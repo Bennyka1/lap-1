@@ -25,4 +25,3 @@ If you have setup continuous integration, then your bot will automatically deplo
 
 
 
-# hackathon
